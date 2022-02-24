@@ -1,6 +1,6 @@
 set -e
 docker pull node
-docker build --progress plain -t local-dcycle-flow-image .
+docker build -t local-dcycle-flow-image .
 
 echo "Make sure code passes"
 docker run --rm -v $(pwd)/example01:/app/code local-dcycle-flow-image
