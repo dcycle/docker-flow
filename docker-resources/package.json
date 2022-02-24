@@ -1,0 +1,9 @@
+{
+	"name": "docker-flow",
+	"scripts": {
+    "flow": "flow"
+	},
+	"devDependencies": {
+    "flow-bin": "*"
+	}
+}
