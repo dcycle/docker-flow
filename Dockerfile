@@ -1,11 +1,9 @@
 FROM node
 
-RUN mkdir -p /app/code
+COPY docker-resources /docker-resources
+
+RUN cd /docker-resources && ./build.sh && rm -rf /docker-resources
 
 WORKDIR /app
-
-COPY docker-resources/package.json package.json
-
-RUN npm install
 
 ENTRYPOINT [ "/app/node_modules/.bin/flow", "check", "/app/code" ]

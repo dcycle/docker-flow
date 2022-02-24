@@ -1,1 +1,1 @@
-Very basic failing example.
+Very basic failing example, with its own .flowconfig file.
