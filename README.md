@@ -10,6 +10,10 @@ For example (failing):
 
     docker run --rm -v $(pwd)/example02:/app/code dcycle/flow:1
 
+For example (Node.js module):
+
+    docker run --rm -v $(pwd)/example03:/app/code dcycle/flow:1
+
 See [this project on the Docker Hub](https://hub.docker.com/r/dcycle/flow/).
 
 More resources
