@@ -16,6 +16,11 @@ For example (Node.js module):
 
 See [this project on the Docker Hub](https://hub.docker.com/r/dcycle/flow/).
 
+Suppressing errors
+-----
+
+See [Error Suppressions, in the flow documentation](https://flow.org/en/docs/errors/).
+
 More resources
 -----
 
