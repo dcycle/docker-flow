@@ -21,6 +21,11 @@ Suppressing errors
 
 See [Error Suppressions, in the flow documentation](https://flow.org/en/docs/errors/).
 
+Example usage
+-----
+
+See the [Dcycle Starterkit Node project](https://github.com/dcycle/starterkit-node).
+
 More resources
 -----
 
