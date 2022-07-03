@@ -14,6 +14,10 @@ For example (Node.js module):
 
     docker run --rm -v $(pwd)/example03:/app/code dcycle/flow:1
 
+For example (ignoring node_modules):
+
+    docker run --rm -v $(pwd)/example04:/app/code dcycle/flow:1
+
 See [this project on the Docker Hub](https://hub.docker.com/r/dcycle/flow/).
 
 Suppressing errors
