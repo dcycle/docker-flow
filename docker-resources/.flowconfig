@@ -3,3 +3,5 @@
 flow-typed
 [options]
 all=true
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
