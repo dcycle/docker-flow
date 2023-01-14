@@ -1,5 +1,5 @@
 set -e
-docker pull node
+docker pull node:alpine
 docker build -t local-dcycle-flow-image .
 
 echo "Make sure code passes"
