@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 docker pull node:alpine
 docker build -t local-dcycle-flow-image .
