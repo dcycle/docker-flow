@@ -1,3 +1,5 @@
+**This image is no longer supported as of 2024-06-13**
+
 [![CircleCI](https://circleci.com/gh/dcycle/docker-flow.svg?style=svg)](https://circleci.com/gh/dcycle/docker-flow)
 
 Type-check Javascript code with [flow](https://flow.org).
